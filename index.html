@@ -16,102 +16,103 @@
     <nav id="navbar" class="m-2">
       <img src="assets/netflix_logo.png" alt="logo netflix" />
     </nav>
-    <div class="d-flex justify-content-center align-content-center">
-      <section
-        id="hero"
-        class="hero-section d-flex flex-column d-flex justify-content-center align-content-center"
-      >
-        <div class="mt-4 mb-0">
-          <h1 class="text-light text-center">Edit Profile</h1>
-          <hr
-            class="d-flex justify-content-center align-content-center my-auto mx-auto mb-4"
-          />
-        </div>
-        <div class="d-flex pb-4">
-          <img class="" height="100" src="assets/kids_icon.png" />
-          <div class="px-4">
-            <p class="mb-4 px-5 text-bg-secondary text-start p-1">
-              Stive Student
-            </p>
-            <p class="h5">Lenguage:</p>
 
-            <a
-              class="nav-link dropdown-toggle border border-light w-50 p-1"
-              data-bs-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-expanded="false"
-              >English
-            </a>
-            <ul class="dropdown-menu"></ul>
-            <hr />
-          </div>
+    <div class="container d-flex justify-content-center align-content-center">
+      <div class="row">
+        <div class="col-9">
+          <h1>Edit Profile</h1>
+          <hr />
         </div>
-        <div class="d-flex pb-2" style="margin-left: 100px">
-          <div class="px-4">
-            <p class="h5 pb-1">Maturity Settings:</p>
-            <p
-              class="text-bg-secondary text-start p-1 ps-2 w-75"
-              style="--bs-bg-opacity: 0.5"
+        <div class="col-4">
+          <img class="" height="120" src="assets/kids_icon.png" />
+        </div>
+        <div class="col-6 p-0">
+          <div class="d-flex pb-4">
+            <div>
+              <p class="mb-4 px-5 text-bg-secondary text-start p-1">
+                Stive Student
+              </p>
+              <p>Lenguage:</p>
+
+              <a
+                class="nav-link dropdown-toggle border border-light w-50 p-1"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >English
+              </a>
+              <ul class="dropdown-menu"></ul>
+              <hr />
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="">
+              <p>Maturity Settings:</p>
+              <p
+                class="text-bg-secondary text-start p-1 ps-2 w-75"
+                style="--bs-bg-opacity: 0.5"
+              >
+                ALL MATURITY RATINGS
+              </p>
+              <p>Show titles of all maturity ratings for this profile.</p>
+              <button
+                type="button"
+                class="btn btn-outline-secondary rounded-0 px-4"
+              >
+                EDIT
+              </button>
+              <hr />
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="">
+              <p>Autoplay controls</p>
+              <div class="form-check">
+                <input
+                  class="form-check-input btn btn-outline-light p-2"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Autoplay next episode in a series on all devices.
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input btn btn-outline-light p-2"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexCheckChecked">
+                  Autoplay previews while browsing on all devices.
+                </label>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-evenly align-content-center mb-4">
+            <button type="button" class="btn btn-light rounded-0 px-4">
+              SAVE
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0 px-4 mx-2"
             >
-              ALL MATURITY RATINGS
-            </p>
-            <p>Show titles of all maturity ratings for this profile.</p>
+              CANCEL
+            </button>
             <button
               type="button"
               class="btn btn-outline-secondary rounded-0 px-4"
             >
-              EDIT
+              DELETE PROFILE
             </button>
-            <hr />
           </div>
         </div>
-        <div class="d-flex pb-2" style="margin-left: 100px">
-          <div class="px-4">
-            <p class="h5">Autoplay controls</p>
-
-            <div class="form-check">
-              <input
-                class="form-check-input btn btn-outline-light p-2"
-                type="checkbox"
-                id="flexCheckDefault"
-              />
-              <label class="form-check-label" for="flexCheckDefault">
-                Autoplay next episode in a series on all devices.
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input btn btn-outline-light p-2"
-                type="checkbox"
-                id="flexCheckChecked"
-                checked
-              />
-              <label class="form-check-label" for="flexCheckChecked">
-                Autoplay previews while browsing on all devices.
-              </label>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="d-flex justify-content-between align-content-center mb-4">
-          <button type="button" class="btn btn-light rounded-0 px-4">
-            <b>SAVE</b>
-          </button>
-          <button
-            type="button"
-            class="btn btn-outline-secondary rounded-0 px-4"
-          >
-            <b>CANCEL</b>
-          </button>
-          <button
-            type="button"
-            class="btn btn-outline-secondary rounded-0 px-4"
-          >
-            <b>DELETE PROFILE</b>
-          </button>
-        </div>
-      </section>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
